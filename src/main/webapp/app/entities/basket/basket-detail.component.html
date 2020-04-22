@@ -45,13 +45,17 @@
                     </div>
                 </dd>
             </dl>
-
+	    <dt>QrCode</dt>
+                <dd>
+                    <div>
+                        <qr-code [value]="'/basket/basket.id/view'" [size]="150"></qr-code>
+                    </div>
+                </dd>
             <button type="submit"
                     (click)="previousState()"
                     class="btn btn-info">
                 <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
             </button>
-
             <button type="button"
                     [routerLink]="['/basket', basket.id, 'edit']"
                     class="btn btn-primary">
