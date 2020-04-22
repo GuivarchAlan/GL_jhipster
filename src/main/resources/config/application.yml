@@ -150,12 +150,12 @@ jhipster:
     title: coopcycle API
     description: coopcycle API documentation
     version: 0.0.1
-    terms-of-service-url: https://wiki.coopcycle.org/fr:license
+    terms-of-service-url: https://mina.iaeste-france.fr/view/legal-notice.php
     contact-name: Alan Guivarch
-    contact-url: https://github.com/GuivarchAlan/GL_jhipster
-    contact-email: alan.guivarch@gmail.com
+    contact-url: mailto:contact@localhost
+    contact-email: yes@localhost
     license: Coopyleft
-    license-url: https://wiki.coopcycle.org/fr:license
+    license-url: https://wiki.coopcycle.org/en:license
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class
